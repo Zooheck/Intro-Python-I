@@ -2,8 +2,6 @@
 def is_even(num):
     if int(num) % 2 == 0:
         return True
-    else:
-        return False
 # YOUR CODE HERE
 
 
@@ -13,7 +11,4 @@ num = int(num)
 
 # Print out "Even!" if the number is even. Otherwise print "Odd"
 
-if is_even(num) == True:
-    print("Even!")
-elif is_even(num) == False:
-    print("Odd")
+if is_even
